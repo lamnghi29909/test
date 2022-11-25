@@ -1,0 +1,163 @@
+.container {
+    width: 2000px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo .pic-logo img {
+    padding-left: 320px;
+}
+.logo .menu ul {
+    display: flex;
+}
+.logo .menu ul li {
+    list-style: none;
+}
+.logo .menu ul li a {
+    text-decoration: none;
+    padding: 16px;
+    color: black;
+}
+.logo .sign-up-in {
+    padding-right: 320px;
+}
+.logo .sign-up-in img {
+    padding-right: 10px;
+}
+.logo .sign-up-in button {
+    width: 84px;
+    height: 42px;
+    font-size: 15px;
+    margin: 10px;
+    border: white;
+    border-radius: 5px;
+}
+.gioi-thieu {
+    display: flex;
+    padding-left:320px ;
+}
+.gioi-thieu .baiviet {
+    padding-right: 40px;
+}
+.gioi-thieu .baiviet .title {
+    background-color: #FFEEEE;
+    color: red;
+    width: 160px;
+    height: 35px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.gioi-thieu .baiviet span {
+    color: black;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.gioi-thieu .baiviet p {
+    font-size: 20px;
+    width: 620px;
+}
+.gioi-thieu .bai-viet {
+    width: 506px;
+}
+.gioi-thieu .bai-viet span {
+    font-size: 100px;
+}
+.gioi-thieu input {
+    width: 306px;
+    height: 62px;
+    border-radius: 10px;
+}
+.gioi-thieu button {
+    font-size: 20px;
+    width: 157px;
+    height: 62px;
+    background-color: #F54748;
+    color: white;
+    border: white;
+    border-radius: 5px;
+}
+.menu-dishes .text h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-dishes .text p {
+    text-align: center;
+    color: gray;
+}
+.menu-dishes .dishes {
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid: auto / auto auto auto;
+}
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+.middle p {
+    padding-left: 320px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.middle a {
+    padding: 19px;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 300px;
+    width: 220px;
+    height: 30px;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    border: 1px solid red;
+}
+.categories {
+    display: flex;
+    padding-left: 300px;
+}
+.categories .dishes1 {
+    padding:60px
+}
+.categories .dishes1 p {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.contact-us {
+    color: grey;
+}
+.contact-us input {
+    width: 520px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.contact-us button {
+    width: 180px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 320px;
+}
+.menu-footer ul {
+    list-style: none;
+    display: flex;
+    padding-left: 100px;
+}
+.menu-footer ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+}
