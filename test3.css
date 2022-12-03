@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+}
+.banner {
+    text-align: center;
+}
+.baivietchinh {
+    display: flex;
+    padding-bottom: 30px;
+}
+.baivietchinh #loc ul li {
+    list-style: none;
+    padding: 10px;
+    padding-left: 330px;
+}
+.baivietchinh #loc ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.baivietchinh #loc ul li a:hover {
+    color: red;
+}
+.baivietchinh .bai-viet {
+    display: grid;
+    grid: auto/auto auto auto;
+    padding-left: 130px;
+}
+.baivietchinh .bai-viet .baiviet {
+    padding: 32px;
+}
+.baivietchinh .bai-viet .baiviet .comment {
+    width: 290px;
+}
+.baivietchinh .bai-viet .baiviet p {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.baivietchinh .bai-viet .baiviet .comment button {
+    background-color: black;
+    color: white;
+    width: 290px;
+    height: 31px;
+    border-radius: 5px;
+}

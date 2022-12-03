@@ -1,0 +1,68 @@
+.container {
+    width: 2000px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo .pic-logo img {
+    padding-left: 320px;
+}
+.logo .menu ul {
+    display: flex;
+}
+.logo .menu ul li {
+    list-style: none;
+}
+.logo .menu ul li a {
+    text-decoration: none;
+    padding: 16px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo .menu ul li a:hover {
+    color: red;
+}
+.logo .sign-up-in {
+    padding-right: 320px;
+}
+.logo .sign-up-in img {
+    padding-right: 10px;
+}
+.logo .sign-up-in a {
+    width: 84px;
+    height: 42px;
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.logo .sign-up-in a:hover {
+    background-color: rgb(248, 244, 244);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 320px;
+}
+.menu-footer ul {
+    list-style: none;
+    display: flex;
+    padding-left: 100px;
+}
+.menu-footer ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+}
+.menu-footer ul li a:hover {
+    color: red;
+}

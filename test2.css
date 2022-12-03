@@ -1,0 +1,46 @@
+.gioithieu {
+    display: flex;
+    padding-left: 320px;
+}
+.gioithieu .comment {
+    width: 620px;
+    padding-right: 40px;
+}
+.gioithieu .comment h1 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.gioithieu .comment .cost {
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.gioithieu .comment input {
+    width: 180px;
+    height: 42px;
+    border-radius: 7px;
+}
+.gioithieu .comment button {
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 42px;
+}
+.baiviet {
+    display: grid;
+    grid: auto/auto auto auto;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-bottom: 50px;
+}
+.baiviet .comment p {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.baiviet .comment button {
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 42px;
+    border-radius: 5px;
+}
