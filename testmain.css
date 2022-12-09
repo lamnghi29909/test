@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom:78px ;
 }
 .logo .pic-logo img {
     padding-left: 320px;

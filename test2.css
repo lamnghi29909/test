@@ -44,3 +44,7 @@
     height: 42px;
     border-radius: 5px;
 }
+.dishes .comment .cost {
+    color: red;
+    font-size: 25px;
+}

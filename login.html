@@ -17,22 +17,28 @@
             <p>Login to your account</p>
         </div>
         <div class="form">
-            <form action="">
+            <form action="" name="login" onsubmit="return abc()">
                 <p>Email</p>
-                <input type="text" name="" id="" placeholder="John.snow@gmail.com">
+                <input type="text" name="Email" id="" placeholder="John.snow@gmail.com">
+                <br>
+                <p id="loiemail" style="display: none; color: red;">Please Enter Email</p>
                 <p>Password</p>
-                <input type="text" placeholder="*********">
+                <input type="text" name="Password" placeholder="*********">
+                <br>
+                <p id="loipassword" style="display: none; color: red;">Please Enter mat khau</p>
                 <br>
                 <button>Login now</button>
                 <br>
                 <button style="background-color:#2D3748; border:0px;"> <img src="img/google.png" alt=""> Or sign-in with google </button>
             </form>
+
             <div class="footer">
                 <a href="" style="font-weight:bolder ;">Forgot password?</a>
                 <p>Don't have an account? <a href="create.html">Join free today</a></p>
             </div>
-
+            <script src="login.js"></script>
         </div>
     </div>
+
 </body>
 </html>
