@@ -17,19 +17,32 @@
             <p>Login to your account</p>
         </div>
         <div class="form">
-            <form action="">
-                <p>Email</p>
-                <input type="text" name="" id="" placeholder="John.snow@gmail.com">
-                <p>Fullname</p>
-                <input type="text" name="" id="" placeholder="John snow">
-                <p>Password</p>
-                <input type="text" placeholder="*********">
-                <p>Re-Password</p>
-                <input type="text" placeholder="*********">
-                <br>
-                <button>Create now</button>
+            <form action="#" name="login" onsubmit="return abc()">
+                <p>
+                    Email   
+                </p>
+                <input type="text" name="gmail" placeholder="John.snow@gmail.com">
+                <p id="loiGmail" style="display: none;">Chưa nhập Email</p>
+                <p>
+                    Fullname
+                </p>
+                <input type="text" name="name" id="" placeholder="John snow">
+                <p id="loiName" style="display: none;">Chưa nhập Tên</p>
+                <p>
+                    Password
+                </p>
+                <input type="text" name="password" placeholder="*********">
+                <p id="loipass" style="display: none;">Chưa nhập mật khẩu</p>
+                <p>
+                    Re-Password
+                </p>
+                <input type="text" name="matkhau" placeholder="*********">
+                <p id="loimatkhau" style="display: none;"> Nhập lại mật khẩu </p>
+                <br> 
+                <button> Create Now</button>
             </form>
         </div>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>

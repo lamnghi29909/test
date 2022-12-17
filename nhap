@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexx.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <div class="container">
+        <div class="google">
+            <img src="Fudo..png" alt="">
+        </div>
+        <div class="infor">
+            <span>Welcome back</span>
+            <p>Login to your account</p>
+        </div>
+        <div class="type">
+            <form action="#" name="dangKi" onsubmit="return valide()">
+                Email   
+                <input type="text" name="gmail" placeholder="John.snow@gmail.com">
+                <p id="loiGmail" style="display: none;">chua nhap Gmail</p>
+                Fullname
+                <input type="text" name="name" id="" placeholder="John snow">
+                <p id="loiName" style="display: none;">chua nhap ten</p>
+                Password
+                <input type="text" name="pass" placeholder="*********">
+                <p id="loipass" style="display: none;">chua nhap Password</p>
+                <p>Re-Password</p>
+                <input type="text" name="repass" placeholder="*********">
+                <p id="loirepass" style="display: none;"> chua nhap repass </p>
+                <br> 
+                <button> Create Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
