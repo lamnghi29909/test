@@ -48,3 +48,12 @@
     color: red;
     font-size: 25px;
 }
+
+#login {
+    color:red ; 
+    border: solid 2px red;
+}
+#sign {
+    color: white; 
+    background-color:red;
+}

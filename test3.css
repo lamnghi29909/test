@@ -49,3 +49,13 @@
     height: 31px;
     border-radius: 5px;
 }
+
+
+#login {
+    color:red ; 
+    border: solid 2px red;
+}
+#sign {
+    color: white; 
+    background-color:red;
+}

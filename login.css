@@ -55,3 +55,12 @@
 .footer a:hover {
     color:#1a7a97;
 }
+
+#loiGmail {
+    display: none; 
+    color: red;
+}
+#loipass {
+    display: none; 
+    color: red;
+}

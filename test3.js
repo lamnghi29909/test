@@ -3,37 +3,37 @@ const arrayDishesProducts = [
         img:"img/mixmini.png",
         comment : "Fresh and Healthy Mixed Mayonnaise Salad",
         cost : "$30",
-        cate : Breakfast
+        cate : 'Breakfast'
     },    
     {
         img :"img/pastamini.png",
         comment : "Fresh and Healthy Mixed Mayonnaise Salad",
         cost : "$30",
-        cate : Vegan
+        cate : 'Vegan'
     },    
     {
         img :"img/pancakemini.png",
         comment : "Fresh and Healthy Mixed Mayonnaise Salad",
         cost : "$30",
-        cate : Meat
+        cate : 'Meat'
     },    
     {
         img :"img/mixmini.png",
         comment : "Fresh and Healthy Mixed Mayonnaise Salad",
         cost : "$30",
-        cate : Dessert
+        cate : 'Dessert'
     },    
     {
         img :"img/pastamini.png",
         comment : "Fresh and Healthy Mixed Mayonnaise Salad",
         cost : "$30",
-        cate : Lunch
+        cate : 'Lunch'
     },    
     {
         img :"img/pancakemini.png",
         comment : "Fresh and Healthy Mixed Mayonnaise Salad",
         cost : "$30",
-        cate : Chocolate
+        cate : 'Chocolate'
     },
 ];
 
@@ -63,22 +63,22 @@ let filter = document.querySelector("#loc");
 
 function filterProduct(data) {
     let _Breakfast = data.filter(function(item) {
-        return item.cate == Breakfast;
+        return item.cate == 'Breakfast';
     });
     let _Vegan = data.filter(function(item) {
-        return item.cate == Vegan;
+        return item.cate == 'Vegan';
     });
     let _Meat = data.filter(function(item) {
-        return item.cate == Meat;
+        return item.cate == 'Meat';
     });
     let _Dessert = data.filter(function(item) {
-        return item.cate == Dessert;
+        return item.cate == 'Dessert';
     });
     let _Lunch = data.filter(function(item) {
-        return item.cate == Lunch;
+        return item.cate == 'Lunch';
     });
     let _Chocolate = data.filter(function(item) {
-        return item.cate == Chocolate;
+        return item.cate == 'Chocolate';
     });
 
     if (filter.value == "Breakfast") showProduct(_Breakfast)
