@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class="name">
+    <button onclick="addProduct()">thêm sản phẩm</button>
+    <p id="loiname" style="display: none;">can nhap lai ten san pham</p>
+    <div class="sanpham">
+        <p id="tao" style="display: block;">táo </p>
+        <p id="cam" style="display: block;">cam</p>
+        <p id="duahau" style="display: block;">dưa hấu</p>
+        <input type="text" class="remove" placeholder="nhập tên sản phẩm">
+        <button onclick="removeProduct()">xóa sản phẩm</button>
+    </div>
+
+
+    
+    <script>
+        // 2
+        let array = ["nghi",15];
+        [a,b] = array
+        if (array == "") {
+            console.log("Không có sản phẩm để hiển thị");
+        } else {
+            console.log(a,b)
+        }
+        // 3
+        let arr = [{
+            name:"",
+        }];
+        let addProduct = () => {
+            let a_name = document.querySelector(".name").value;
+            a = a_name.length
+            if (a >= 5) {
+                document.getElementById("loiname").style.display = "none"
+                arr.push(a_name)
+            } else if (a > 0 && a < 5){
+                document.getElementById("loiname").style.display = "block"
+                
+            }
+            
+        }
+        addProduct();
+        console.log(arr);
+
+        // 1 
+        let arra = [["cường",25],"Kiên",28,["Phương Anh",24]];
+        let showProduct = () => {
+            [[a,b], c,d, [e,f]] = arra,
+            console.log(a,b)
+        }
+        showProduct()
+
+        // 4
+        // const arrayy = [
+        //     {
+        //         id:1,
+        //         name:"táo",
+        //     },
+        //     {
+        //         id:2,
+        //         name:"cam",
+        //     },
+        //     {
+        //         id:3,
+        //         name:"dưa hấu",
+        //     },
+        // ];
+        // function product(data) {
+        //     let _productItem = document.querySelector(".sanpham")
+        //     _productItem.innerHTML = "";
+        //     if (_productItem) {
+        //         for(let item of data) {
+        //             _productItem.innerHTML += `
+        //             <p id="${item.id}">${item.name}</p>
+                    
+        //             `;
+        //         }
+        //     }
+        // }
+        // product(arrayy);
+        let removeProduct = () => {
+            var _tao = document.querySelector("#tao").value;
+            var _cam = document.querySelector("#cam").value;
+            var _duahau = document.querySelector("#duahau").value;
+            var _sanpham = document.querySelector(".remove").value;
+            if (_sanpham == _tao) {
+                document.getElementById("tao").style.display = "none"
+                
+            } else if (_sanpham == _cam) {
+                document.getElementById("cam").style.display = "none"
+                
+            } else if (_sanpham == _tao) {
+                document.getElementById("duahau").style.display = "none"
+                
+            } else {
+                document.getElementById("tao").style.display = "none"
+                document.getElementById("cam").style.display = "block"
+                document.getElementById("duahau").style.display = "block"
+            }
+        }
+        
+    </script>
+</body>
+</html>
